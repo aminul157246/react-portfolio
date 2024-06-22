@@ -97,7 +97,7 @@ body {
     margin: 0;
   }
   
-  button {
+  .toggleBtn {
     outline: none;
     border: none;
     -webkit-user-select: none;
@@ -114,7 +114,7 @@ body {
     padding: 10px;
   }
   
-  button path {
+  toggleBtn path {
     fill: var(--background);
   }
   

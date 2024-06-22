@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-
+import Cursor from '../src/shared/Cursor/Cursor.jsx';
 
 
 import {
@@ -45,6 +45,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <Cursor/>
     <RouterProvider router={router} />
   </React.StrictMode>,
 )

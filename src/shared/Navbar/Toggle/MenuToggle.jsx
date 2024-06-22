@@ -14,7 +14,7 @@ const Path = (props) => (
 
 // MenuToggle component to handle the open/close button
 export const MenuToggle = ({ toggle }) => (
-  <button onClick={toggle} style={{ background: "blue", border: "none", cursor: "pointer", padding: '12px' }}>
+  <button className="toggleBtn" onClick={toggle} style={{ background: "blue", border: "none", cursor: "pointer", padding: '12px' }}>
     <svg width="23" height="18" viewBox="0 0 23 18">
       <Path
         d="M 2 2.5 L 20 2.5"
