@@ -7,7 +7,11 @@ export default {
 ],
 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily : {
+        jost  :  '"Bebas Neue", sans-serif',
+      }
+    },
   },
   plugins: [require("daisyui")],
 

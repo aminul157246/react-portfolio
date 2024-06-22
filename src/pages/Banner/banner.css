@@ -1,0 +1,29 @@
+h1{
+    color: transparent;
+    -webkit-text-stroke: 3px #29A587 ;
+    position: relative;
+}
+
+h1::before{
+    content: 'AMINUL ISLAM';
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color : #29A587;
+    border-right: 8px solid #29A587;
+    transition: 1s ease-in-out;
+}
+
+h1:hover::before{
+    width: 80%;
+    filter: drop-shadow(0 0 50px #29A587 );
+}
+
+
+.profile img{
+    border-radius: 50%;
+    border: 10px solid #29A587;
+    box-shadow: 0 0 50px  #29A587;
+}
+

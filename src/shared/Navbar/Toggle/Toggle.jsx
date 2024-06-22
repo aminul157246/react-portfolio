@@ -58,7 +58,7 @@ export default function Toggle() {
   return (
     <div ref={scope}>
       <MenuItems />
-      <MenuToggle toggle={() => setIsOpen(!isOpen)} />
+      <MenuToggle  toggle={() => setIsOpen(!isOpen)} />
     </div>
   );
 }
